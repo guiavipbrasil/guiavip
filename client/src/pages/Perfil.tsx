@@ -142,11 +142,11 @@ export default function Perfil() {
           {/* Coluna Esquerda - Foto e Galeria */}
           <div className="lg:col-span-2">
             {/* Foto Principal */}
-            <div className="relative overflow-hidden rounded-lg bg-muted mb-4" style={{ aspectRatio: '3/4' }}>
+            <div className="relative overflow-hidden rounded-lg bg-muted mb-4" style={{ maxHeight: '100vh' }}>
               <img
                 src={`/manus-storage/${perfil.foto_original}`}
                 alt={perfil.nome}
-                className="w-full h-full object-contain"
+                className="w-full h-auto object-contain"
               />
             </div>
 
