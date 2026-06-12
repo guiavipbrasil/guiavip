@@ -126,7 +126,7 @@ export default function Perfil() {
               <img
                 src={`/manus-storage/${perfil.foto_original}`}
                 alt={perfil.nome}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
