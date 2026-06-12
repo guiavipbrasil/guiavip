@@ -4,9 +4,33 @@
     "nome": "Alessandra",
     "categoria": "feminina",
     "cidade": "São Paulo",
-    "descricao": "Acompanhante exclusiva para momentos especiais.",
+    "descricao": "Acompanhante exclusiva para momentos especiais, com discrição e elegância.",
     "foto_original": "3e1ed949-f074-434a-8322-31ebe0ec19a4.jpeg",
-    "url_amigavel": "perfil-alessandra-1"
+    "url_amigavel": "perfil-alessandra-1",
+    "precos": [
+      { "duracao": "1 hora", "valor": 500 },
+      { "duracao": "2 horas", "valor": 800 },
+      { "duracao": "Pernoite", "valor": 2500 }
+    ],
+    "caracteristicas": {
+      "altura": "1.70m",
+      "peso": "60kg",
+      "busto": "42",
+      "olhos": "Castanhos",
+      "cabelo": "Loiro, liso",
+      "medidas": "90-60-90",
+      "idade": 28
+    },
+    "servicos": [
+      "Jantares e eventos",
+      "Viagens nacionais",
+      "Massagem relaxante"
+    ],
+    "galeria_fotos": [
+      "alessandra_galeria_1.jpeg",
+      "alessandra_galeria_2.jpeg"
+    ],
+    "disponibilidade": "Atendimento em São Paulo e viagens, agendamento flexível."
   },
   {
     "id": 2,
